@@ -1,7 +1,7 @@
 <a id='anchor'></a>
 
 # Алгоритмы сортировки
-![сортировка](sorting algorithms/img1.jpg)
+![сортировка](img1.jpg)
 
 ## Сортировка пузырьком (bubble sort)
 ***
@@ -70,7 +70,7 @@ def quicksort(nums: list[int]) -> list[int]:
     return quicksort(left) + equal + quicksort(right)
 ```
 [What's the fastest way to alphabetize your bookshelf? ](https://www.youtube.com/watch?v=WaNLJf8xzC4)
-![ted](sorting algorithms/img3.JPG)
+![ted](img3.JPG)
 ## Сортировка слиянием (merge sort)
 ***
 Алгоритм действует по принципу "Разделяй и властвуй". Массив разделяется на две равные части, которые сортируются отдельно. Затем при слиянии отсортированных массивов получается один.
@@ -116,7 +116,7 @@ def split_and_merge(nums: list[int]) -> list[int]:
 | intersection sort       | O(N^2)            | O(N^2)           |     O(1) |
 | __quick sort__          | O(N^2)            | O(nlogn)         | O(nlogn) |
 | __merge sort__          | O(nlogn)          | O(nlogn)         |     O(N) |
-![сортировка](sorting algorithms/img2.jpg)
+![сортировка](img2.jpg)
 ***
 ### Используемые источники:
 #### [Sorting Algorithms in Python](https://realpython.com/sorting-algorithms-python/)
